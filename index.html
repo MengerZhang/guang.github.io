@@ -1,0 +1,106 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>亲爱的，我爱你 </title>
+<meta name="keywords" content="" />
+<meta name="description" content=""/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<style type="text/css">
+		@font-face {
+			font-family: digit;
+			src: url('fontName.eot');
+			src: local('fontName Regular'),local('fontName'),url('fontName.woff') format('woff'),url('fontName.ttf') format('truetype'),url('fontName.svg#fontName') format('svg');
+			}  /*其中fontName替换为你的字体名称*/
+		@font-face{
+			font-family: iloveyou;
+			src: url('resource/font/槑萌体简.ttf');
+		}
+		#fontlove{
+			font-family: iloveyou;
+			font-size: 125%;
+		}
+	</style>
+	<link href="css/default.css" tppabs="./css/default.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.js" tppabs="./js/jquery.js"></script>
+	<script type="text/javascript" src="js/garden.js" tppabs="./js/garden.js"></script>
+    <script type="text/javascript" src="js/functions.js" tppabs="./js/functions.js"></script>
+<body>
+	<div id="mainDiv">
+		<div id="content">
+			<div id="code">
+				<span class="comments"><font id="fontlove">亲爱的：</font></span><br/>
+				<span class="space"/><span class="comments"><font id="fontlove">我在茫茫人海中，寻觅到你，与你相遇、相识、相知、相爱、是缘分让我俩在一起的。</font></span><br />
+				<span class="space"/><span class="comments"><font id="fontlove">我每天都会不同程度的想起你，就像我第一次和你聊天就已开始喜欢你一样，不能将你忘记。也是从见到你那一刻起，我就开始憧憬着一切一切会与你共同体会的美好。我想，我等的就是你。</font></span><br/>
+				<span class="space"/><span class="comments"><font id="fontlove">谈恋爱就该经历一下异地恋，体会一下欣喜忧愁无从分享，欢笑落泪不能拥抱，学会处理一个人的时间，学会照顾自己，也只有这样 在下一个拥抱，乃至白头偕老，你才会感恩，异地恋不只考验着对方的耐心，更是考验了自己的认真，是的，我们坚持的是别人无法体验的爱情。我相信，只要心在一起，无论相隔多远都是近的。我不羡慕也不嫉妒那些天天粘在一起的小情侣。我能做的就是，不停地读书，让自己更加优秀，我希望不论在未来的哪一天，以最不容置疑的姿态站在你身边。</font></span><br/>
+				<span class="space"/><span class="comments"><font id="fontlove">以前跟你说过，最好的关系不是随叫随到，每天都聊，而是我发了消息，你看到了自然会回复，我不会因为你没有回复而胡乱猜忌，你也不会因为没有及时回复而感到抱歉 彼此信任，彼此牵挂就够了。</font></span><br/>
+				<span class="space"/><span class="comments"><font id="fontlove">亲爱的，虽然我笨，但是至少我知道我是爱你的。有时候经常梦见的是你不要我了，你也许会笑话我，因为你觉得这是不可能的事情。可能我心里缺少的就是对爱情的安全感吧。</font></span><br/>
+				<span class="space"/><span class="comments"><font id="fontlove">我只需要你能让我感觉到我就是你的。</font></span><br/>
+				<span class="space"/><span class="comments"><font id="fontlove">说实话，现在你比我成熟，懂得比我多，我反而没有安全感了，因为我不敢随便发脾气，不敢随便撒娇，因为怕你觉得我太幼稚，跟不上不的脚步。</font></span></br>
+				<span class="space"/><span class="comments"><font id="fontlove">我要好好的照顾自己，不会让你担心，我会不断的提升自己，成为未来的你的骄傲。</font></span></br>
+				<span class="space"/><span class="comments"><font id="fontlove">我爱你，我只想和你永远在一起！我说过，我不会离开你，永远都不会，我说到做到。相信我，永远爱你！</font></span>
+			</div>
+			<div id="loveHeart">
+				<canvas id="garden"></canvas>
+				<div id="words">
+					<div id="messages">
+						亲爱的, 这是我们认识的第
+						<div id="elapseClock"></div>
+					</div>
+					<div id="loveu">
+						永远爱你，一辈子，不分离！<br/>
+						<div class="signature">- 最爱你的人</div>
+				</div>
+			</div>
+</div>
+	<div class="bg1">	
+		<div class="main">
+			<footer style="line-height:20px">
+                <div id="copyright">
+                  <p><a href='http://51bbw.cn' target="_blank"></a> 
+                    <a href="http://ymjzy.net" target="_blank"></a>
+                    <a href="" target="_blank"></a></p>
+                </div>
+		</div>
+	</div>
+</div>
+
+	<script type="text/javascript">
+		var offsetX = $("#loveHeart").width() / 2;
+		var offsetY = $("#loveHeart").height() / 2 - 55;
+		var together = new Date();
+		together.setFullYear(2017,03,13);
+		together.setHours(20);
+		together.setMinutes(0);
+		together.setSeconds(0);
+		together.setMilliseconds(0);
+		
+		if (!document.createElement('canvas').getContext) {
+			var msg = document.createElement("div");
+			msg.id = "errorMsg";
+			msg.innerHTML = "提醒您：您的浏览器版本过旧^_^<br/>"+
+				"推荐使用 <a href='http://www.firefox.com.cn/' target='_blank'>火狐浏览器<br/>请先升级您的浏览器，效果很炫哦~~"; 
+			document.body.appendChild(msg);
+			$("#code").css("display", "none")
+			$("#copyright").css("position", "absolute");
+			$("#copyright").css("bottom", "10px");
+		    document.execCommand("stop");
+		} else {
+			setTimeout(function () {
+				adjustWordsPosition();
+				startHeartAnimation();
+			}, 5000);
+
+			timeElapse(together);
+			setInterval(function () {
+				timeElapse(together);
+			}, 500);
+
+			adjustCodePosition();
+			$("#code").typewriter();
+		}
+	</script>
+    <audio id="bgmMusic" src="resource/mp4/065031e6e254d9a5cb991d1d904b929c.mp3" preload="auto" type="audio/mp3" autoplay="" loop="loop"></audio>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="img/100.jpeg"><img src="img/101.jpeg">
+</body>
+</html>
